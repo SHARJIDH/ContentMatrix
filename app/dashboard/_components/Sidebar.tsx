@@ -3,6 +3,7 @@ import { History, Home, Receipt, Settings } from 'lucide-react';
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect } from 'react';
+import UsageTrack from './UsageTrack';
 
 function Sidebar() {
   const router = useRouter();
@@ -54,6 +55,9 @@ function Sidebar() {
             <h2>{menu.name}</h2>
           </div>
         ))}
+      </div>
+      <div className='absolute bottom-10 left-0 w-full'>
+        <UsageTrack />
       </div>
     </div>
   );
