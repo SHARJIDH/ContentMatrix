@@ -8,11 +8,11 @@ function Header() {
         <Search className='text-primary' />
         <input type="text" placeholder='Search...' className='outline-none bg-transparent text-black dark:text-white' />
       </div>
-      <div>
+      {/* <div>
         <h2 className='bg-primary p-1 rounded-full text-sm text-primary-foreground dark:bg-secondary dark:text-secondary-foreground'>
           🚀 Join Membership for only $4.99/month
         </h2>
-      </div>
+      </div> */}
     </div>
   );
 }
